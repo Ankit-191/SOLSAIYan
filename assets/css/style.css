@@ -313,6 +313,19 @@ ul {
     transform: translateY(-8px);
 }
 
+.backToTop {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    transform: rotate(-90deg);
+    transition: all 0.3s linear;
+    display: none;
+    z-index: 1;
+}
+
+.backToTop:hover circle {
+    fill: #F66F4D;
+}
 
 @media (max-width:1200px) {
     .xl_fsize_48 {
