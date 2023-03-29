@@ -213,6 +213,17 @@ ul {
     opacity: 1;
 }
 
+.slider_shadow_left {
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 92.04%);
+    z-index: 1;
+}
+
+.slider_shadow_right {
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 92.04%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 1;
+}
+
 .timeline {
     position: relative;
     margin: 0 auto;
