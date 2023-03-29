@@ -305,7 +305,7 @@ ul {
     border-radius: 5px;
 }
 
-.icon_hover:hover img {
+.icon_hover img {
     transition: all 0.3s linear;
 }
 
