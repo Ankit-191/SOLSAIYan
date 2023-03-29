@@ -332,7 +332,7 @@ ul {
 }
 
 .backToTop:hover circle {
-    fill: #EC0010;
+    fill: gray;
 }
 
 @media (max-width:1200px) {
