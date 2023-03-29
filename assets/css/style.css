@@ -305,6 +305,15 @@ ul {
     border-radius: 5px;
 }
 
+.icon_hover:hover img {
+    transition: all 0.3s linear;
+}
+
+.icon_hover:hover img {
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
 .icon_hover path {
     transition: all 0.3s linear;
 }
@@ -333,6 +342,7 @@ ul {
 
 .backToTop:hover circle {
     fill: gray;
+    cursor: pointer;
 }
 
 @media (max-width:1200px) {
