@@ -324,7 +324,7 @@ ul {
 }
 
 .backToTop:hover circle {
-    fill: #F66F4D;
+    fill: #EC0010;
 }
 
 @media (max-width:1200px) {
