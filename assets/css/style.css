@@ -94,6 +94,7 @@
     content: ' ';
     position: absolute;
     background-color: #F4E803;
+    border-radius: 5px;
     width: 0px;
     height: 3px;
     bottom: -15px;
@@ -338,6 +339,48 @@ ul {
     transition: all 0.3s linear;
     display: none;
     z-index: 1;
+    animation: btnTop infinite 4s ease-in-out;
+}
+
+@keyframes btnTop {
+    0% {
+        bottom: 30px;
+    }
+
+    25% {
+        bottom: 45px;
+    }
+
+    50% {
+        bottom: 30px;
+    }
+
+    75% {
+        bottom: 45px;
+    }
+
+    100% {
+        bottom: 30px;
+    }
+}
+
+.our_team {
+    animation: ourTeam infinite 3s ease-in-out;
+}
+
+@keyframes ourTeam {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+        font-size: 47px;
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .backToTop:hover circle {
